@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@700&family=Open+Sans&family=Roboto:wght@500;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#opacity{
+    position:absolute;
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    opacity: 0.7;
+}
+#grid-container{
+    display: grid;
+    background-color: #272626;
+    grid-template-columns: 100%;
+    grid-template-rows: 700px 587px 584px 580px 576px 1001px 404px;
+    row-gap: 10px;
+}
+#grid-container>section,footer{
+    /* border: 5px solid blue; */
+    background-color: black;
+}
+#grid-container #header{
+    background-image: url(./netflixBG.jpg);
+    width: 100%;
+    height: 700px; 
+}
+
+#grid-container #header #head{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    position: relative;
+    right: 218px;
+    
+    gap: 35px;
+}
+
+#header #head #option select{
+    width: 124px;
+    height: 34px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#header #head #option select option{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+#header #head  #sign-in{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #f00c0c;
+    padding: 4px 13px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    transition: 1s;
+}
+#header #head  #sign-in:hover{
+    background-color: #c60c0c;
+}
+#header  #head-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 202px;
+}
+
+#header  #head-content h1{
+    font-size: 50px;
+ 
+
+    color: white;
+    font-weight: 900;
+}
+#header  #head-content p{
+    font-size: 19px;
+    color: white;
+    margin: 6px;
+
+
+}
+#header  #head-content #input{
+    position: relative;
+    right: 2px;
+    width: 372px;
+    margin-top: 13px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    padding-left: 5px;
+}
+#header  #head-content i{
+    color: white;
+    position: relative;
+    right: 45px;
+    top: 4px;
+    font-size: 28px;
+}
+#header  #head-content #btn{
+    width: 226px;
+    height: 58px;
+    border: none;
+    font-size: 29px;
+    border-radius: 4px;
+    position: relative;
+    top: 3px;
+  
+    background-color: #d00707;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bolder;
+    padding-right: 26px;
+   
+
+}
+#header  #head-content #btn:hover{
+    background-color: #9f0606;
+}
+
+#first-section{
+    background-color: black;
+}
+#first-section #section-content{
+    display: flex;
+    justify-content: center;
+    column-gap: 131px;
+    height: 587px;
+    align-items: center;
+}
+
+#first-section #section-content #description{
+    width: 487px;
+}
+#first-section #section-content #description #tv-Show{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;  
+   
+
+}
+#first-section #section-content #description #watch{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 16px;
+   
+}
+#first-section #section-content #video{
+    background-image: url(./tv.png);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+}
+#first-section #section-content #video video{
+    width: 476px;
+    height: 218px;
+    position: relative;
+    top: 84px;
+    left: 26px;
+}
+
+#second-section #flex-content{
+    display: flex;
+    justify-content: center;
+    column-gap:62px;
+    height: 584px;
+    align-items: center;
+        position: relative;
+    right: 72px;
+}
+#flex-right-content{
+    position: relative;
+    left: 101px;
+}
+#flex-right-content #Download{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 527px;
+
+}
+
+#flex-right-content #fav{
+    color: white;
+    width: 471px;
+    font-size: 24px;
+    margin-top: 13px;
+
+    font-weight: 100;
+}
+
+#flex-content #stranger-things{
+    background-image: url(./mobile-0819.jpg);
+    height: 446px;
+    flex-basis: 500px;
+    background-size: cover;
+}
+
+#flex-content #stranger-things #stranger-things-dowld-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0px;
+    align-items: center;
+    border: 2px solid #777373;
+    border-radius: 13px;
+    width: 329px;
+    position: relative;
+    left: 131px;
+    top: 300px;
+    background-color: black;
+}
+#stranger-things-dowld-box img{
+    width: 60px;
+    height: 80px;
+    position: relative;
+    left: -17px;
+}
+
+#flex-content #stranger-things #st{
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+    
+}
+#flex-content #stranger-things #d{
+   color: #1c1cff;
+   
+    font-weight: lighter;
+
+}
+
+
+#third-section #flex-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    column-gap: 130px;
+}
+
+#third-section #flex-content #we{
+    color: white;
+    font-size: 3rem;
+    width: fit-content;
+    font-weight: 900;
+
+}
+
+#third-section #flex-content #dt{
+    color: white;
+    font-size: 24px;
+    width: 554px;
+    font-weight: 100;
+}
+
+#third-section #flex-content #backgroud-video{
+    background-image: url(./device-pile-in.png);
+    /* z-index: 1; */
+    height: 445px;
+    width: 39%;
+    background-size: cover;
+}
+
+#third-section #flex-content #backgroud-video video{
+    position: relative;
+    width: 366px;
+    left: 110px;
+    top: 41px;
+}
+
+#fourth-section #flex-container{
+    height: 576px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 62px;
+}
+#fourth-section #flex-container #img{
+    width: 506px;
+    position: relative;
+    left: 55px;
+}
+#fourth-section #flex-container #profile{
+
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#fourth-section #flex-container #membership{
+    color: white;
+    width: 533px;
+    font-size: 23px;
+    font-weight: 100;
+    margin: 10px;
+}
+#fift-section #flex{
+    display: flex;
+    flex-direction: column; display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 21px;
+}
+#fift-section #FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fift-section #FAQ #heading{
+    font-size: 3rem;
+    color: white;
+    margin-top: 73px;
+    margin-bottom: 18px;
+    font-weight: bolder;
+}
+#fift-section #FAQ .questions{
+    color: white;
+    width: 1097px;
+    margin-bottom: 4px;
+    transition: 1s;
+}
+#fift-section #FAQ .questions>h1{
+    font-size: 31px;
+    font-weight: 100;
+    padding: 18px;
+    background-color: rgb(45,45,45);
+    cursor: pointer;
+    transition: 0.2px;
+}
+
+#fift-section #FAQ .questions>h1:hover{
+    background-color: rgb(84 83 83);;
+}
+#fift-section #FAQ .questions .ans{
+    padding: 29px;
+    background-color: rgb(45,45,45);
+    font-size: 19px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    display: none;
+    flex-direction: column;
+    transition: 1s;
+}
+#fift-section #FAQ .questions .ans h1{
+    margin-top: 22px;
+    font-weight: 100;
+}
+#fift-section #FAQ .questions .fa-solid{
+    position: absolute;
+    right: 254px;
+    font-size: 40px;
+    
+} 
+#fift-section #FAQ .questions .fa-plus{
+    visibility: visible;
+}
+#fift-section #FAQ .questions .fa-xmark{
+    visibility: hidden;
+}
+
+#fift-section  #head-content p{
+    font-size: 19px;
+    color: white;
+    margin: 6px;
+
+}
+#fift-section  #head-content #input{
+    position: relative;
+    right: 2px;
+    width: 372px;
+    margin-top: 13px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    padding-left: 5px;
+}
+#fift-section #head-content i{
+    color: white;
+    position: relative;
+    right: 45px;
+    top: 4px;
+    font-size: 28px;
+}
+#fift-section  #head-content #btn{
+    width: 226px;
+    height: 58px;
+    border: none;
+    font-size: 29px;
+    border-radius: 4px;
+    position: relative;
+    top: 3px;
+  
+    background-color: #d00707;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bolder;
+    padding-right: 26px;
+   
+
+}
+#fift-section  #head-content #btn:hover{
+    background-color: #9f0606;
+}
+#footer p {
+    color: grey;
+    position: relative;
+    width: fit-content;
+    left: 208px;
+    top: 74px;
+}
+#footer p a{
+    color: grey;
+}
+#footer #footer-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 200px;
+    position: relative;
+    top: 103px;
+}
+#footer #footer-flex .flex-items ul{
+    list-style-type: none;
+}
+#footer #footer-flex .flex-items ul li{
+    margin-bottom: 31px;
+    font-size: 14px;
+}
+#footer #footer-flex .flex-items ul li a{
+    color: grey;
+}
+#footer #option{
+    position: relative;
+    top: 82px;
+    left: 206px;
+    width: fit-content;
+}
+#footer select{
+    width: 124px;
+    height: 34px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#footer select option{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
